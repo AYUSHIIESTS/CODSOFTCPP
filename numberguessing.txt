@@ -1,0 +1,56 @@
+TASK 1- (EXPLANATION BY AYUSH DUTTA)
+NUMBER GUESSING GAME
+
+
+
+
+
+QUESTION- 
+
+
+Number Guessing Game
+
+Game Objective: Create a number guessing game in C++ where the player must guess a randomly generated number within a specified range.
+
+Random Number Generation: Utilize C++'s random number functions to generate a random number within the chosen range.
+
+User Input: Allow the player to input their guesses and provide feedback on whether the guess is too high or too low.
+
+Win Condition: Implement a win condition when the player correctly guesses the number.
+
+Scorekeeping: Keep track of the number of attempts it took the player to guess the correct number and display the score at the end of the game.
+
+
+
+
+
+
+SOLUTION AND EXPLANATION-
+
+
+ASSIGNMENT BY AYUSH DUTTA
+The program is a number guessing game written in C++. The player tries to guess a randomly generated number within a user-defined range.
+Key Features:
+Random Number Generation:
+The random number generator is seeded with the current time to ensure a different sequence of random numbers each time the program runs (srand(time(0));).
+A random number is generated within a range specified by the user.
+User Input:
+The user is prompted to enter the minimum and maximum values for the range.
+The program ensures the minimum value is less than the maximum value; otherwise, it exits with an error message.
+Game Loop:
+The user is repeatedly prompted to guess the number or type "exit" to quit.
+If the user types "exit", the game ends with a message indicating they lost.
+If the input is a number, the program compares it to the random number and provides feedback ("Too low", "Too high", or "Congratulations").
+The number of attempts is tracked and displayed upon correctly guessing the number.
+Error Handling:
+The program handles invalid inputs (non-numeric strings) gracefully, prompting the user to enter a valid number or "exit".
+Flow of the Program:
+Seed the random number generator.
+Prompt the user for the range.
+Validate the range.
+Generate a random number within the specified range.
+Enter a loop where the user guesses the number:
+If the guess is correct, congratulate the user and show the number of attempts.
+If the guess is incorrect, indicate whether it is too high or too low.
+If the user inputs "exit", end the game and indicate they lost.
+This program allows the user to define the game parameters and provides interactive feedback until the game is won or the user chooses to exit.
