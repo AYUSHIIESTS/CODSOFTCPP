@@ -1,0 +1,45 @@
+TASK 2
+
+SIMPLE CALCULATOR using c++
+
+Develop a calculator program that performs basic arithmetic operations 
+such as addition, subtraction, multiplication, and division. Allow the user 
+to input two numbers and choose an operation to perform.
+
+
+
+SOLUTION EXPLANATION-
+
+The provided C++ code by AYUSH DUTTA implements a simple calculator that allows users to perform basic arithmetic operations (addition, subtraction, multiplication, and division) on two input numbers. It prompts the user to enter the numbers and the desired operation, performs the calculation, and outputs the result or appropriate error messages.
+
+Key Features:
+
+Input Handling:
+Prompts the user to input two numbers and the desired arithmetic operation (+, -, *, /).
+Utilizes the cin stream for input.
+Arithmetic Operations:
+Performs arithmetic operations based on the user's input using a switch statement.
+Supports addition, subtraction, multiplication, and division.
+Error Handling:
+Checks for division by zero when performing division and displays an error message if encountered.
+Detects invalid operations and provides an error message in such cases.
+Output Display:
+Displays the result of the arithmetic operation to the user.
+Outputs error messages when necessary.
+User Interaction:
+Provides clear prompts for user input.
+Engages with the user through input requests and result displays.
+Simple and Straightforward:
+The code is concise and easy to understand, making it suitable for beginners learning C++.
+Portable and Standard:
+Utilizes standard C++ syntax and libraries (iostream) for compatibility across different platforms and compilers.
+Structured Programming:
+Organized into functions and control structures (such as switch statements) for clarity and maintainability.
+Overall, this calculator code provides a basic yet functional implementation for performing simple arithmetic calculations interactively in a console-based environment, demonstrating fundamental principles of C++ programming such as user input, control flow, and error handling.
+
+
+
+
+
+
+
